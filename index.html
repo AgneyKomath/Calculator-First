@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator 1 beginnings</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="calculator">   
+            <div class="top-row">
+                <button id="dark">dark</button>
+                <section class="disp" id="bri">
+                    0
+                </section>
+            </div>
+            <section class="calc-buttons">
+                <div class="row">
+                    <button >7</button>
+                    <button >8</button>
+                    <button >9</button>
+                    <button class="opbtn" style="background-color: #ff445a;" >&minus;</button>
+                </div>
+                <div class="row">
+                    <button >4</button>
+                    <button >5</button>
+                    <button >6</button>
+                    <button class="opbtn" style="background-color: #2388ff;" >&divide;</button>
+                </div>
+                <div class="row">
+                    <button >1</button>
+                    <button >2</button>
+                    <button >3</button>
+                    <button class="opbtn" style="background-color: #ffc804;">&times;</button>
+                </div>
+                <div class="row">
+                    <button >0</button>
+                    <button >&larr;</button>
+                    <button style="background-color: #f5f7ff;"  >=</button>
+                    <button class="opbtn" style="background-color: #63de77;" >&plus;</button>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script>
+        let icon=document.getElementById("dark");
+        dark.onclick=function(){
+            document.body.classList.toggle("dark-theme");
+        }
+    </script>
+</body>
+</html>
